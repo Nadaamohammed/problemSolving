@@ -1,0 +1,5 @@
+if type(x) == type("Ryan"): 
+            return "Who ate the last cookie? It was Zach!"
+    if type(x) == type(26) or type(x) == type(2.3): 
+        return "Who ate the last cookie? It was Monica!"
+    return "Who ate the last cookie? It was the dog!"
