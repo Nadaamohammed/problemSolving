@@ -1,0 +1,4 @@
+import string
+def position(alphabet):
+    con = string.ascii_lowercase
+    return f"Position of alphabet: { con.find(alphabet) + 1 }"
