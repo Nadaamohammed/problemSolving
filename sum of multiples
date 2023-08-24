@@ -1,0 +1,13 @@
+def sum_mul(n, m):
+    if n<=0 or m<=0 :
+        return 'INVALID'
+    mul=0
+    sum=0
+    while mul < m :
+        mul+=n
+        if mul>=m :
+            break
+        sum+=mul
+        
+    return sum
+        
