@@ -1,0 +1,8 @@
+#include <cmath>
+int mango(int quantity, int price)
+{
+  int m = floor(quantity/3);
+  int sum = (quantity - m ) * price;
+  return sum;
+  
+}
